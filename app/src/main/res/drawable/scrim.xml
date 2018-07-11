@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Background Layer consisting of a gradient. Helps white text be visible over Images
+Guidance found at https://blog.iamsuleiman.com/techniques-to-display-text-overlay-background-images/
+and scrim found at https://github.com/jlhonora/MaterialDesignUdacity -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="90"
+        android:startColor="#00000000"
+        android:centerColor="#80000000"
+        android:endColor="#000000"
+        android:type="linear"/>
+</shape>

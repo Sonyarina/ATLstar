@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This layout is used in Landscape Mode for the item list layout of items in the
+RecyclerViews with horizontal orientations. It is used by the HomeFragment-->
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Card_Vertical_One_Row"
+    android:layout_width="@dimen/land_horizontal_item_list_card_width"
+    android:layout_height="@dimen/land_horizontal_item_list_card_height"
+    android:layout_marginBottom="@dimen/horizontal_item_list_margin_bottom"
+    android:layout_marginRight="@dimen/horizontal_item_list_margin_right"
+    android:layout_marginTop="@dimen/horizontal_item_list_margin_top"
+    app:cardBackgroundColor="#ffffff"
+    app:cardCornerRadius="@dimen/card_radius_vertical_item_list"
+    app:cardElevation="@dimen/card_elevation_vertical_item_list">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/attraction_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:clickable="true"
+            android:contentDescription="@string/image_content_description"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="centerCrop"
+            android:src="@drawable/compound" />
+
+        <!-- Row with Attraction Name and Like Icon -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/narrow_activity_margin"
+            android:layout_marginRight="@dimen/narrow_activity_margin"
+            android:layout_marginTop="@dimen/text_vertical_item_list_margin">
+
+            <TextView
+                android:id="@+id/attraction_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:maxLines="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                tools:text="@string/attraction_name_long_example" />
+
+            <ImageView
+                android:id="@+id/like_button"
+                android:layout_width="@dimen/like_icon_size"
+                android:layout_height="@dimen/like_icon_size"
+                android:clickable="true"
+                android:contentDescription="@string/like_button_content_description"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:visibility="visible"
+                tools:src="@drawable/like" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/attraction_snippet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_item_list_margin"
+            android:layout_marginLeft="@dimen/narrow_activity_margin"
+            android:layout_marginRight="@dimen/narrow_activity_margin"
+            android:layout_marginTop="@dimen/text_vertical_item_list_margin"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:justificationMode="inter_word"
+            android:maxLines="1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            tools:targetApi="26"
+            tools:text="@string/attraction_description_example" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

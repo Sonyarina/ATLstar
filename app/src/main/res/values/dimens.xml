@@ -1,0 +1,75 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="narrow_activity_margin">8dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Tab Layout Dimensions -->
+    <dimen name="tab_indicator_h">5dp</dimen>
+    <dimen name="tab_max_w">0dp</dimen>
+
+    <!-- Vertical Column Item List MARGIN / PADDING Dimensions -->
+    <dimen name="vertical_item_list_margin">16dp</dimen>
+    <dimen name="vertical_item_list_narrow_margin">5dp</dimen>
+    <dimen name="vertical_item_list_narrow_margintop">1dp</dimen>
+    <dimen name="vertical_item_list_h_margin">16dp</dimen>
+    <dimen name="vertical_item_list_v_margin">16dp</dimen>
+
+    <!-- Vertical Column Item List CARDVIEW Dimensions -->
+    <dimen name="card_height_vertical_item_list">220dp</dimen>
+    <dimen name="card_radius_vertical_item_list">5dp</dimen>
+    <dimen name="card_margin_vertical_item_list">8dp</dimen>
+    <dimen name="card_elevation_vertical_item_list">4dp</dimen>
+    <dimen name="card_margin_bottom_vertical_item_list">8dp</dimen>
+
+    <!-- Vertical Column Item List IMAGEVIEW Dimensions -->
+    <dimen name="image_size_vertical_item_list">400dp</dimen>
+
+    <!-- Vertical Column Item List TEXTVIEW Dimensions -->
+    <dimen name="text_vertical_item_list_margin">8dp</dimen>
+    <dimen name="name_text_vertical_item_list">20sp</dimen>
+    <dimen name="descrip_text_vertical_item_list">14sp</dimen>
+
+    <!-- Like Icon Dimensions -->
+    <dimen name="like_icon_size">30dp</dimen>
+    <dimen name="like_icon_horizontal_list_size">45dp</dimen>
+
+    <!-- Detail Page Dimensions -->
+    <dimen name="detail_divider_height">1dp</dimen>
+    <dimen name="icon_row_height">80dp</dimen>
+    <dimen name="name_text_detail_screen">25sp</dimen>
+    <dimen name="address_padding">16dp</dimen>
+    <dimen name="details_feature_image">257dp</dimen>
+
+    <!-- Home Category Dimensions -->
+    <dimen name="slogan_horizontal_margin">100dp</dimen>
+    <dimen name="slogan_vertical_margin">15dp</dimen>
+    <dimen name="slogan_text_size">30sp</dimen>
+    <dimen name="intro_header_text_size">30sp</dimen>
+    <dimen name="featured_text_size">20sp</dimen>
+    <dimen name="skyline_height">150dp</dimen>
+    <dimen name="skyline_margin">60dp</dimen>
+    <dimen name="skyline_padding_top">10dp</dimen>
+    <dimen name="toolbar_margin_bottom">10dp</dimen>
+
+    <!-- Horizontal Item List dimensions -->
+    <dimen name="horizontal_item_list_margin">8dp</dimen>
+    <dimen name="horizontal_item_list_margin_right">10dp</dimen>
+    <dimen name="horizontal_item_list_narrow_margin">5dp</dimen>
+    <dimen name="horizontal_item_list_margin_top">1dp</dimen>
+    <dimen name="horizontal_item_list_margin_bottom">5dp</dimen>
+    <dimen name="horizontal_item_list_card_height">200dp</dimen>
+    <dimen name="horizontal_item_list_card_width">150dp</dimen>
+    <dimen name="horizontal_item_list_card_container_height">210dp</dimen>
+    <dimen name="card_elevation_horizontal_item_list">4dp</dimen>
+    <dimen name="card_radius_horizontal_item_list">5dp</dimen>
+
+    <!-- Landscape mode dimensions -->
+    <dimen name="land_featured_image_height">80dp</dimen>
+    <dimen name="land_card_width">300dp</dimen>
+    <dimen name="land_horizontal_item_list_card_height">200dp</dimen>
+    <dimen name="land_horizontal_item_list_card_width">200dp</dimen>
+    <dimen name="land_horizontal_item_list_margin_right">6dp</dimen>
+    <dimen name="land_card_image_height">120dp</dimen>
+    <dimen name="land_details_feature_image">180dp</dimen>
+</resources>

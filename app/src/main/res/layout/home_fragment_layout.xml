@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for HomeFragment. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryTextColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/home_header_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/intro_header_text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:targetApi="16" />
+
+        <TextView
+            style="@style/home_content_text"
+            android:text="@string/intro_description_text"/>
+
+        <TextView
+            android:id="@+id/featured_text"
+            style="@style/home_header_text"
+            android:text="@string/featured_text" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_list"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horizontal_item_list_card_container_height"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/narrow_activity_margin"
+            tools:listitem="@layout/horizontal_item_list" />
+
+        <TextView
+            style="@style/home_header_text"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/disclaimer_header_text" />
+
+        <TextView
+            style="@style/home_content_text"
+            android:text="@string/disclaimer_text"/>
+    </LinearLayout>
+</ScrollView>

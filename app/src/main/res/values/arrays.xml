@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Images used in this project were obtained on the attractions' websites. This project is for
+educational purposes only. -->
+
+<resources>
+
+    <!-- Array of Images for the Attractions. Indices 0 through 3 are Dining Attractions;
+    Indices 4 through 8 are Nightlife Attractions; Indices 9 through 11 are Shopping Attractions;
+     and Indices 12 through 15 are Venue Attractions -->
+    <array name="attraction_images">
+        <item>@drawable/chops</item>
+        <item>@drawable/park_75</item>
+        <item>@drawable/ponce_city_market</item>
+        <item>@drawable/south_city</item>
+        <item>@drawable/clermont</item>
+        <item>@drawable/compound</item>
+        <item>@drawable/opera</item>
+        <item>@drawable/puff</item>
+        <item>@drawable/stk</item>
+        <item>@drawable/lenox</item>
+        <item>@drawable/phipps</item>
+        <item>@drawable/shops_buckhead</item>
+        <item>@drawable/fox</item>
+        <item>@drawable/mbs</item>
+        <item>@drawable/philips_arena</item>
+        <item>@drawable/suntrust_park</item>
+    </array>
+</resources>

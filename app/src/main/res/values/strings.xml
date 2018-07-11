@@ -1,0 +1,270 @@
+<resources>
+    <string name="app_name">ATL Star</string>
+    <string name="hello_blank_fragment_old">Test</string>
+    <string name="home_fragment">Home</string>
+    <string name="featured_text">Featured Places</string>
+    <string name="view_all_text">View All</string>
+    <string name="intro_header_text">Celebrity Hang Outs</string>
+    <string name="intro_description_text">Explore the hottest celebrity hang out spots in the city of Atlanta. Before partaking in the fun, read the Important Information section below.</string>
+    <string name="disclaimer_text">These are only suggestions and we cannot guarantee that you
+        will encounter a celebrity at the listed locations. \n\nPlease remember to be polite and
+        respect the personal boundaries of others. In Atlanta, the norm is that celebrities are
+        able to be out in public without over the top reactions from fans and others. \n\nYou
+        are not authorized to use this app for the purpose of stalking and/ or harassing celebrities.</string>
+    <string name="disclaimer_header_text">Important Information</string>
+    <string name="home_slogan">Hollywood of the South</string>
+    <string name="dine_slogan">where celebs eat</string>
+    <string name="shop_slogan">where celebs shop</string>
+    <string name="venues_slogan">where celebs play</string>
+    <string name="nightlife_slogan">where celebs party</string>
+    <string name="dine_fragment">Dining</string>
+    <string name="shop_fragment">Shopping</string>
+    <string name="venues_fragment">Venues</string>
+    <string name="venues_alternative">Sports &amp; Concert Venues</string>
+    <string name="nightlife_fragment">Nightlife</string>
+    <string name="nightlife_alternative">Bars, Lounges &amp; Dance Clubs</string>
+    <string name="image_content_description">Image of Attraction</string>
+    <string name="tab_image_content_description">Category Image</string>
+    <string name="subtitle_prefix_detail_screen">Celebrity </string>
+    <string name="like_button_content_description">Like Button</string>
+    <string name="phone_prefix"><b>Phone: </b></string>
+    <string name="website_prefix"><b>Website: </b></string>
+    <string name="url_prefix">http://</string>
+    <string name="more_info_link">View More Info</string>
+    <string name="less_info_link">View Less Info</string>
+    <string name="share_info">Share this Attraction with&#8230;</string>
+    <string name="action_settings">Reset Favorites</string>
+    <string name="action_about">About App</string>
+    <string name="fav_saved">Saved</string>
+    <string name="fav_save">Save</string>
+    <string name="call_icon">Call</string>
+    <string name="share_icon">Share</string>
+    <string name="web_icon">Web</string>
+    <string name="map_icon">Map</string>
+    <string name="like_icon">Save</string>
+    <string name="detail_blurb_header">Who You\'ll See</string>
+    <string name="detail_descrip_header">What You\'ll Find</string>
+    <string name="attraction_name_short_example">Park 75</string>
+    <string name="attraction_name_long_example">The Shops Buckhead Atlanta</string>
+    <string name="attraction_address_multiline_example">70 West Paces Ferry Rd NW\nAtlanta, GA
+        30305</string>
+    <string name="attraction_address_single_line_example">70 West Paces Ferry Rd NW, Atlanta, GA 30305</string>
+    <string name="attraction_phone_example">(404) 262&#45;2675</string>
+    <string name="attraction_description_example">You know what celebrities really love? Eating
+        crazy&#45;expensive cuts of steak! Because this tends to cut the&#8230;</string>
+    <string name="attraction_detail_description_example">An Atlanta icon known for its exceptional food and service, Chops consistently ranks as one of the top ten steakhouses in the country. Exquisite seafood flown in fresh daily and the very best USDA prime aged beef are served with style in the warm ambiance of the dark wood dining room. Whether you’re dining for business or pleasure, a meal at Chops is sure to make a lasting impression. (Source: TripAdvisor.com)</string>
+    <string name="attraction_detail_blurb_example">Visit Chops Lobster Bar and you might see Larry David, Russell Crowe, Justin Bieber, Billy Bob Thornton, Vin Diesel, Dennis Quaid, Kate Bosworth, or Ryan Gosling!</string>
+    <string name="three_dots">&#8230;</string>
+
+
+    <!-- Indices 0 through 3 are Dining Attractions; Indices 4 through 8 are Nightlife Attractions;
+    Indices 9 through 11 are Shopping Attractions; and Indices 12 through 15 are Venue Attractions
+    -->
+    <string-array name="attraction_name">
+        <item>Chops Lobster Bar</item>
+        <item>Park 75</item>
+        <item>Ponce City Market</item>
+        <item>South City Kitchen</item>
+        <item>Clermont Lounge</item>
+        <item>Compound</item>
+        <item>Opera Nightclub</item>
+        <item>Puff &amp; Petals</item>
+        <item>STK Atlanta</item>
+        <item>Lenox Square</item>
+        <item>Phipps Plaza</item>
+        <item>The Shops Buckhead Atlanta</item>
+        <item>Fox Theatre</item>
+        <item>Mercedes Benz Stadium</item>
+        <item>Philips Arena</item>
+        <item>SunTrust Park</item>
+    </string-array>
+
+    <string-array name="attraction_category">
+        <item>Dining</item>
+        <item>Dining</item>
+        <item>Dining</item>
+        <item>Dining</item>
+        <item>Nightlife</item>
+        <item>Nightlife</item>
+        <item>Nightlife</item>
+        <item>Nightlife</item>
+        <item>Nightlife</item>
+        <item>Shopping</item>
+        <item>Shopping</item>
+        <item>Shopping</item>
+        <item>Venues</item>
+        <item>Venues</item>
+        <item>Venues</item>
+        <item>Venues</item>
+    </string-array>
+
+    <string-array name="attraction_address_multi">
+        <item>70 West Paces Ferry Rd NW\nAtlanta, GA 30305</item>
+        <item>75 14th St NE\nAtlanta, GA 30309</item>
+        <item>675 Ponce De Leon Ave NE\nAtlanta, GA 30308</item>
+        <item>1144 Crescent Ave NE\nAtlanta, GA 30309</item>
+        <item>789 Ponce De Leon Ave NE\nAtlanta, GA 30306</item>
+        <item>1008 Brady Ave NW\nAtlanta, GA 30318</item>
+        <item>1150 Crescent Ave NE\nSuite B\nAtlanta, GA 30309</item>
+        <item>367 Edgewood Ave SE\nAtlanta, GA 30312</item>
+        <item>1075 Peachtree St NE\nAtlanta, GA 30309</item>
+        <item>3393 Peachtree Rd NE\nAtlanta, GA 30326</item>
+        <item>3500 Peachtree Rd NE\nAtlanta, GA 30326</item>
+        <item>3035 Peachtree Rd NE\nAtlanta, GA 30305</item>
+        <item>660 Peachtree St NE\nAtlanta, GA 30308</item>
+        <item>1 AMB Drive NW\nAtlanta, GA 30313</item>
+        <item>1 Philips Dr\nAtlanta, GA 30303</item>
+        <item>755 Battery Ave SE\nAtlanta, GA 30339</item>
+    </string-array>
+
+    <string-array name="attraction_address">
+        <item>70 West Paces Ferry Rd NW, Atlanta, GA</item>
+        <item>75 14th St NE, Atlanta, GA</item>
+        <item>675 Ponce De Leon Ave NE, Atlanta, GA</item>
+        <item>1144 Crescent Ave NE, Atlanta, GA </item>
+        <item>789 Ponce De Leon Ave NE, Atlanta, GA</item>
+        <item>1008 Brady Ave NW, Atlanta, GA </item>
+        <item>1150 Crescent Ave NE, Suite B, Atlanta, GA</item>
+        <item>367 Edgewood Ave SE, Atlanta, GA </item>
+        <item>1075 Peachtree St NE, Atlanta, GA</item>
+        <item>3393 Peachtree Rd NE, Atlanta, GA</item>
+        <item>3500 Peachtree Rd NE, Atlanta, GA</item>
+        <item>3035 Peachtree Rd NE, Atlanta, GA</item>
+        <item>660 Peachtree St NE, Atlanta, GA</item>
+        <item>1 AMB Drive NW, Atlanta, GA</item>
+        <item>1 Philips Dr, Atlanta, GA</item>
+        <item>755 Battery Ave SE, Atlanta, GA</item>
+    </string-array>
+
+    <string-array name="attraction_coordinates">
+        <item>geo:0,0?q=33.84,-84.38144(Chops Lobster Bar)</item>
+        <item>geo:0,0?q=33.78616,-84.38529(Park 75)</item>
+        <item>geo:0,0?q=33.77222,-84.36607(Ponce City Market)</item>
+        <item>geo:0,0?q=33.786,-84.38456(South City Kitchen)</item>
+        <item>geo:0,0?q=33.77336,-84.36135(Clermont Lounge)</item>
+        <item>geo:0,0?q=33.78423,-84.41389(Compound)</item>
+        <item>geo:0,0?q=33.786,-84.38456(Opera Nightclub)</item>
+        <item>geo:0,0?q=33.75428,-84.37655(Puff &amp; Petals)</item>
+        <item>geo:0,0?q=33.78381,-84.38317(STK Atlanta)</item>
+        <item>geo:0,0?q=33.84773,-84.36225(Lenox Square)</item>
+        <item>geo:0,0?q=33.85296,-84.36042(Phipps Plaza)</item>
+        <item>geo:0,0?q=33.83874,-84.36671(The Shops Buckhead Atlanta)</item>
+        <item>geo:0,0?q=33.77261,-84.38559(Fox Theatre)</item>
+        <item>geo:0,0?q=33.75637,-84.40115(Mercedes Benz Stadium)</item>
+        <item>geo:0,0?q=33.75738,-84.39347(Philips Arena)</item>
+        <item>geo:0,0?q=33.88363,-84.47554(SunTrust Park)</item>
+    </string-array>
+
+    <string-array name="attraction_phone">
+        <item>(404) 262&#45;2675</item>
+        <item>(404) 253&#45;3840</item>
+        <item>(404) 900&#45;7900</item>
+        <item>(404) 873&#45;7358</item>
+        <item>(404) 874&#45;4783</item>
+        <item>(404) 898&#45;1702</item>
+        <item>(404) 874&#45;3006</item>
+        <item>(404) 555&#45;1212</item>
+        <item>(404) 793&#45;0144</item>
+        <item>(404) 233&#45;7575</item>
+        <item>(404) 261&#45;7910</item>
+        <item>(404) 939&#45;9270 </item>
+        <item>(404) 881&#45;2100</item>
+        <item>(470) 341&#45;5000</item>
+        <item>(404) 878&#45;3000</item>
+        <item>(404) 577&#45;9100</item>
+    </string-array>
+
+    <string-array name="attraction_phone_link">
+        <item>tel:14042622675</item>
+        <item>tel:14042533840</item>
+        <item>tel:14049007900</item>
+        <item>tel:14048737358</item>
+        <item>tel:14048744783</item>
+        <item>tel:14048981702</item>
+        <item>tel:14048743006</item>
+        <item>tel:14045551212</item>
+        <item>tel:14047930144</item>
+        <item>tel:14042337575</item>
+        <item>tel:14042617910</item>
+        <item>tel:14049399270</item>
+        <item>tel:14048812100</item>
+        <item>tel:14703415000</item>
+        <item>tel:14048783000</item>
+        <item>tel:14045779100</item>
+    </string-array>
+
+    <string-array name="attraction_website">
+        <item>www.buckheadrestaurants.com/chops-lobster-bar</item>
+        <item>www.fourseasons.com/atlanta/dining/restaurants/park_75</item>
+        <item>www.poncecitymarket.com</item>
+        <item>midtown.southcitykitchen.com</item>
+        <item>clermontlounge.net</item>
+        <item>www.compoundatl.com</item>
+        <item>www.operaatlanta.com</item>
+        <item>instagram.com/puffandpetalslounge</item>
+        <item>togrp.com/venue/stk-atlanta</item>
+        <item>www.simon.com/mall/lenox-square</item>
+        <item>www.simon.com/mall/phipps-plaza</item>
+        <item>theshopsbuckheadatlanta.com</item>
+        <item>www.foxtheatre.org</item>
+        <item>mercedesbenzstadium.com</item>
+        <item>www.philipsarena.com</item>
+        <item>mlb.mlb.com/atl/ballpark/information</item>
+    </string-array>
+
+    <!--Attraction descriptions were obtained through various online resources, including Google
+    Maps, Wikipedia, Atlanta.net, TripAdvisor.com, Thrillist.com, and various travel articles and
+    magazines. Specific attributions contained within strings.-->
+    <string-array name="attraction_description">
+        <item>An Atlanta icon known for its exceptional food and service, Chops consistently ranks as one of the top ten steakhouses in the country. Exquisite seafood flown in fresh daily and the very best USDA prime aged beef are served with style in the warm ambiance of the dark wood dining room. Whether you’re dining for business or pleasure, a meal at Chops is sure to make a lasting impression. \n\n(Source: TripAdvisor.com, Thrillist.com)</item>
+        <item>Park 75 is steps away from the lobby where a famed face is bound to show itself during check out, only know that the tight&#45;lipped staff won\’t be able to share. \n\n\"Park 75 Restaurant at Four Seasons Hotel Atlanta offers the freshest seasonal ingredients in a variety of breakfast specialties including Brioche French Toast, Red Velvet Pancakes, and Egg White Frittata. Join us during the week or on Sunday for our specialized brunch menu and buffet.\" \n\n(Source: Park 75, Atlanta.net)</item>
+        <item>At the heart of Ponce City Market, the Central Food Hall is becoming the most vibrant food hall and market in the Southeast. Located at the intersection of the Virginia Highland, Old Fourth Ward, Midtown, and Poncey&#45;Highland neighborhoods, Ponce City Market is the epicenter for shopping, dining, and gathering among local residents. The venue spans over two million feet. This historic building is home to retail stores, restaurants, offices, venues, and residence alike. At the heart of Ponce City Market, the Central Food Hall is becoming the most vibrant food hall and market in the Southeast. James Beard Award&#45;winning chefs the likes of Anne Quatrano, Linton Hopkins, and Sean Brock join Atlanta’s most exciting young purveyors and restaurateurs to offer everything from Georgia and Carolinas&#45;caught seafood, to classic burgers, cold&#45;pressed juice, and locally&#45;made kimchee and Korean steamed buns. \n\nSimilar to the legendary food hall at Chelsea Market in Manhattan—also owned by the developers of Ponce City Market—the Central Food Hall is a culinary gathering place within a revamped historic space, but with the distinct character and ﬂavors of Atlanta. \n\n(Source: Ponce City Market, Atlanta.net)</item>
+        <item>Hollywood is moving to ATL not just because of the tax breaks; the South also has
+            way better shrimp and grits than you can find in Beverly Hills. Set in a 1920s
+            bungalow, this eatery offers inventive takes on Southern favorites plus a fireplace.
+            South City Kitchen Midtown serves Southern classics with a sophisticated spin from an
+            iconic bungalow in the heart of Midtown Atlanta. \n\n<i>According to restaurant
+                management, \"Since opening more than two decades ago and changing the landscape
+                of Southern cuisine and the Atlanta restaurant scene, we’ve been serving signature dishes like fried chicken and shrimp &amp; grits alongside innovative, inspired regional cuisine.\" \n\n\"Our nationally&#45;recognized food and wine list and service come together seamlessly for weekday lunch, weekend brunch, nightly dinner and group dining events.\"</i> \n\n(Source: South City Kitchen, Thrillist.com)</item>
+        <item>The Clermont Lounge is Atlanta\'s first and longest continually operating strip
+            club, opened in 1965. Some of the biggest Hollywood A&#45;listers have gone to the Clermont Lounge. In fact, Jennifer Lawrence, Morgan Freeman, and Lady Gaga all went to the strip club/dive bar while they were visiting Atlanta. Basically, every celebrity who visits Atlanta goes to the Clermont Lounge. This is a must for anyone looking to bump shoulders with Hollywood elite. \n\n(Source: ProjectCasting.com, Thrillist.com)</item>
+        <item>Head to Compound in downtown Atlanta for a night of fun and entertainment. The nightclub is not only one of the most popular places to party in the city; it is also one of the most famed spots to indulge in a night of hip&#45;hop music. After a brief hiatus in 2008, the club reopened in 2009 to the delight of locals. This dual&#45;level club features a variety of rooms, including a white&#45;drenched dance hall complete with open VIP levels. DJs spin at hip bi&#45;level dance club with indoor/outdoor spaces &amp; VIP area. You must be at least 21 years to join the party. \n\n(Source: AZCentral.com; Compound Atlanta\'s Instagram)</item>
+        <item>Opera Nightclub is a nightclub located in Midtown Atlanta, Georgia, United States. It is Atlanta\'s most popular and successful nightclub in terms of revenue and attendance and has also been featured in Nightclub &amp; Bar\'s Top 50 Clubs in the United States for 2015. \n\n(Source: Wikipedia)</item>
+        <item>Cocktails, sweets, and southern small bites served in a brightly colored, femme&#45;focused lounge setting. R&amp;B singer, songwriter, pianist and guitarist K.
+            Michelle, Kimberly Michelle Pate, has topped Billboard charts and frequently starred on \"Love &amp; Hip Hop: Atlanta.\" Her newest title, restaurateur, came when she opened Puff &amp; Petals in May. \n\nWhile the lounge\'s decorative scheme might sound visually overwhelming, K pulls it off with subtle taste. Chandeliers hang above and sheer pink curtains dangle between pink vinyl booths and white countertops. The salt at each table is pink. Framed playful quotes cover the back wall, like \"She who leaves a trail of glitter is never forgotten\" and \"Never chase anything but drinks and dreams.\" To the right of the narrow space sits the bar, set against a backdrop of artificial pastel orange, green and pink roses and hydrangeas. \"The whole theme is really girly,\" K says. \"I just wanted Puff &amp; Petals to be a place where women can feel safe and comfortable and have great drinks.\" \n\n(Source: Bobbin Wages, Creative Loafing; Puff and Petals Instagram)</item>
+        <item>Perhaps it\’s the amazing food, the lively ambiance or the 5,000&#45;square&#45;foot private event space that entices celebrities like Denzel Washington, Scarlett Johansson and Chris Evans to stop by STK Atlanta. This dining venue offers a lively and chic lounge along with modern eats, making it the perfect spot to hang with celebs and have a night out with your own glitterati group. \n\n(Source: Rachel Madray, ModernLuxury.com; Thrillist.com)</item>
+        <item>Not only are Lenox Square Mall and Phipps Plaza the most fashionable locations in Atlanta, they also boast some of the best celeb sightings. Located in the heart of Buckhead, Lenox Square offers an unparalleled shopping experience. The property boasts Bloomingdale\'s, Neiman Marcus and Macy\'s and features nearly 250 specialty stores like FENDI, Burberry, Cartier, David Yurman, Louis Vuitton, Diane von Furstenberg, and Vineyard Vines. \n\nBut that\'s not it! An impressive 2&#45;story glass facade welcomes shoppers to 3 full service restaurants: The Cheesecake Factory, Zinburger Wine &amp; Burger Bar, and True Food Kitchen. This dramatic entrance showcases the iconic property\’s street side presence, including a glass covered porte&#45;cochere and valet amenities for easy access. \n\n(Source: Simon Property Group, Atlanta.net)</item>
+        <item>Phipps Plaza, the southeast\'s premier, upscale shopping destination, is located off of GA 400 at the intersection of Peachtree and Lenox Roads, right in the heart of Buckhead with quick and convenient access to Midtown and Downtown Atlanta. According to Simon Property Group, \"Our beautiful indoor shopping mall boasts over 100 stores like Saks Fifth Avenue, Nordstrom, Jeffrey Atlanta, Tiffany &amp; Co., Gucci and more. In addition to our variety of shopping categories, Phipps Plaza offers exciting entertainment options, with a 14&#45;screen AMC movie theatre and LEGOLAND Discovery Center attraction.\"  \n\nWhen you\'re done shopping, hang around, because Phipps Plaza has full&#45;service restaurant and dining options like Public Kitchen &amp; Bar, Genuine Pizza, Davio\'s Northern Italian Steakhouse and The Tavern at Phipps, as well as fast options such as Johnny Rockets, Moe\'s Southwest Grill, Subway and Rocks Chicken &amp; Fries, all of which are sure to satisfy any appetite. \n\n(Source: Simon Property Group)</item>
+        <item>Big city chic and European charm blend seamlessly at The Shops Buckhead Atlanta. Bistro tables on canopied sidewalks beckon. Window&#45;shopping is a coveted pastime. Over 60 designer stores and unique restaurants with new openings happening all the time. A walkable city sanctuary where art, style and ambiance converge. \n\n(Source: The Shops Buckhead, Atlanta.net)</item>
+        <item>The Fox Theatre, a former movie palace, is a performing arts venue located in Midtown Atlanta, Georgia, and is the centerpiece of the Fox Theatre Historic District. The theater was originally planned as part of a large Shrine Temple as evidenced by its Moorish design. The 4,665 seat auditorium was ultimately developed as a lavish movie theater in the Fox Theatres chain and opened in 1929. It hosts a variety of cultural and artistic events including the Atlanta Ballet, a summer film series, and performances by national touring companies of Broadway shows. The venue also hosts occasional concerts by popular artists. \n\n(Source: Wikipedia)</item>
+        <item>Mercedes&#45;Benz stadium is the new home of the Atlanta Falcons of the National Football League (NFL) and the Atlanta United FC of Major League Soccer (MLS). It replaced the adjacent NFL indoor arena Georgia Dome (now demolished), the Falcons\' home stadium from 1992 through 2016. With a cost of nearly 1.5 billion dollars, the Mercedes&#45;Benz stadium holds the record of the world\'s largest halo board and is one of few football stadiums with retractable roofs. \n\n(Source: Wikipedia)</item>
+        <item>Philips Arena is a multi&#45;purpose indoor arena located in Atlanta, Georgia, and is home to the Atlanta Hawks, of the National Basketball Association, and the Atlanta Dream, of the Women\'s National Basketball Association. \n\n(Source: Wikipedia)</item>
+        <item>SunTrust Park is a baseball park located in the Atlanta metropolitan area 10 miles (16 km) northwest of downtown Atlanta in the unincorporated community of Cumberland, in Cobb County, Georgia. It is the home ballpark for the Atlanta Braves, the city\'s Major League Baseball (MLB) franchise. On November 11, 2013, the Braves announced (quite controversially) that the franchise would leave Turner Field for a new park after the 2016 season. The Braves have played their home games at SunTrust Park since April 2017. \n\n(Source: Wikipedia)</item>
+    </string-array>
+
+    <!--Attraction blurbs/ descriptions were obtained through various online resources, including
+    Google Maps, Wikipedia, Atlanta.net, TripAdvisor.com, Thrillist.com, and various travel articles
+    and magazines. Specific attributions contained within strings.-->
+    <string-array name="attraction_blurb">
+        <item>Visit Chops Lobster Bar and you might see Larry David, Russell Crowe, Justin Bieber, Billy Bob Thornton, Vin Diesel, Dennis Quaid, Kate Bosworth, or Ryan Gosling!</item>
+        <item>Park 75 at the Four Seasons Atlanta is a known celebrity hangout for breakfast
+            meetings. Celebrities visiting from out&#45;of&#45;town love the very discreet staff and ultra&#45;sophisticated atmosphere.</item>
+        <item>Not exactly an after&#45;hours spot, but Ponce City Market/’s Central Food Hall is open late and is located right alongside the Atlanta BeltLine\’s Eastside Trail, making it a prime hot spot for celebs to check out a unique Atlanta vibe.</item>
+        <item>At South City Kitchen, you might run into Kanye West, Kim Kardashian, Charles Barkley, Tom Hanks, Ben Affleck, Wanda Sykes, Melissa McCarthy, and others!</item>
+        <item>Robert De Niro, Morgan Freeman, Lady Gaga, and pretty much every celebrity who visits Atlanta, but not Mumford &amp; Sons since they got kicked out of there last year.</item>
+        <item>At Compound, you might see singers like Chris Brown, Trey Songz, or Usher; or rappers such as Cardi B, Gucci Mane, and more!</item>
+        <item>The club has been a place for celebrity sightings such as Clint Eastwood, Pauly D, and Ice Cube.</item>
+        <item>Celebrity sightings here include various cast members from several VH1 reality series, including Love &amp; Hip Hop, Basketball Wives, and more.</item>
+        <item>Vince Vaughn, Denzel Washington, Selena Gomez, Zac Efron, Jessica Alba, Chris Evans, Scarlett Johansson, Owen Wilson, Charles Barkley, John Mellencamp, Meg Ryan, Kevin Bacon, Kurt Russell, Dakota Fanning, Keri Hilson.</item>
+        <item>A&#45;listers are as drawn to those designer boutiques as us mere mortals, so don\’t be surprised if you catch a glimpse of a movie star or musician buried under bundles of shopping bags.</item>
+        <item>You\'re likely to see at least one celebrity when shopping at Phipp\'s Plaza in Atlanta. If you\'re into VH1 reality shows, check out PRESSED, a fabulous clothing boutique owned by Love and Hip Hop\'s Rasheeda Frost.</item>
+        <item>The Shops Buckhead Atlanta is known affectionately as the \“Rodeo Drive of Buckhead.\” Celebrities also live in the high rises there, too.</item>
+        <item>The Fox Theatre is where everyone goes to see the hottest plays, concerts, speeches, and anything else that requires a stage!</item>
+        <item>Everyone loves the Atlanta Falcons. High profile fans, like actor Samuel Jackson, or singer Usher, frequently leave the safety of their VIP boxes to explore the brand new stadium.</item>
+        <item>Home of the beloved Atlanta Hawks! You\'re bound to see a celebrity if you catch a game or even a concert at Philips Arena.</item>
+        <item>The Atlanta Braves have a new home at SunTrust Park! In addition to the famous baseball players, celebrities from all over the country like to drop by to watch the Braves!</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
